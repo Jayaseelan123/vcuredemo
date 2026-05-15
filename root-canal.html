@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Root Canal Treatment (RCT) | V Cure Dental & Implant Centre</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo"><img src="Images/logo.png" alt="V Cure Dental & Implant Centre" width="60"
+                    height="60"> V Cure<span> Dental & Implant Centre</span></a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+
+                <!-- SERVICES DROPDOWN -->
+                <li class="dropdown">
+                    <a href="services.html" class="drop-trigger">Services <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="implants.html"><i class="fas fa-tooth"></i> Dental Implant</a></li>
+                        <li><a href="root-canal.html"><i class="fas fa-bolt"></i> RCT</a></li>
+                        <li><a href="zirconia-crowns.html"><i class="fas fa-crown"></i> Zirconia Crowns</a></li>
+                        <li><a href="complete-denture.html"><i class="fas fa-teeth"></i> Complete Denture</a></li>
+                        <li><a href="aligners.html"><i class="fas fa-gem"></i> Clear Aligners</a></li>
+                        <li><a href="orthodontic-treatment.html"><i class="fas fa-align-center"></i> Orthodontic
+                                Treatment</a></li>
+                        <li><a href="kids-dentistry.html"><i class="fas fa-child"></i> Kids Dentistry</a></li>
+                        <li><a href="smile-makeover.html"><i class="fas fa-star"></i> Smile Makeover</a></li>
+                        <li><a href="full-mouth.html"><i class="fas fa-sync-alt"></i> Full Mouth Rehabilitation</a></li>
+                        <li><a href="wisdom-tooth.html"><i class="fas fa-briefcase-medical"></i> Wisdom Tooth
+                                Removal</a></li>
+                        <li><a href="cleaning.html"><i class="fas fa-teeth"></i> Cleaning and Polishing</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li><a href="doctors.html">Doctors</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="book-appointment.html" class="btn-nav">Book Appointment</a></li>
+            </ul>
+
+            <!-- Mobile Toggle (Keep for responsiveness) -->
+            <button class="hamburger" onclick="toggleMobileMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- IMMERSIVE HERO -->
+        <section class="hero-page"
+            style="padding: 120px 0; background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('Images/rct.png') center/cover;">
+            <div class="pattern-bg"></div>
+            <div class="container text-center reveal">
+                <span class="tagline" style="background:var(--secondary); color:white;">PAINLESS & PRECISE</span>
+                <h1 style="font-size: 4.5rem; color: white; margin-top: 20px;">Root Canal <span
+                        class="text-gradient">Treatment</span></h1>
+                <p style="font-size: 1.3rem; color: #ddd; max-width: 800px; margin: 20px auto;">Save your natural teeth
+                    with our high-precision, single-visit root canal solutions.</p>
+            </div>
+        </section>
+
+        <!-- SECTION 1: IMAGE LEFT / TEXT RIGHT -->
+        <section class="container section-padding">
+            <div class="grid" style="grid-template-columns: 1fr 1fr; align-items: center; gap: 80px;">
+                <div class="reveal">
+                    <img src="Images/rootcanal.png" alt="Advanced Endodontics"
+                        style="width: 85%; border-radius: 40px; box-shadow: 0 40px 80px rgba(0,0,0,0.15);">
+                </div>
+                <div class="reveal">
+                    <span class="tagline">PRESERVE YOUR TOOTH</span>
+                    <h2 style="margin: 20px 0; font-size: 2.8rem;">Root Canal <br><span
+                            style="color:var(--primary)">Modern Painless</span></h2>
+                    <p style="color: var(--text-muted); font-size: 1.1rem; margin-bottom: 30px;">
+                        A Root canal is a dental procedure designed to address issues within the pulp chamber of a
+                        tooth, which contains the nerves and blood vessels. When the pulp becomes infected or inflamed
+                        due to deep decay, a crack, or trauma, a root canal is performed to remove the damaged or
+                        infected pulp, clean the root canals, and seal them to prevent further infection.
+                    </p>
+                    <div class="glass-card" style="border-left: 5px solid var(--primary); padding: 25px;">
+                        <ul style="list-style: none;">
+                            <li style="margin-bottom: 12px;"><i class="fas fa-check-circle"
+                                    style="color:var(--primary)"></i> Spontaneous or throbbing pain while chewing </li>
+                            <li style="margin-bottom: 12px;"><i class="fas fa-check-circle"
+                                    style="color:var(--primary)"></i> Sensitivity to cold and hot foods</li>
+                            <li><i class="fas fa-check-circle" style="color:var(--primary)"></i> Repeated dental
+                                procedures on one tooth (replacing a large filling for example)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: THE SERVICES (Detailed Grid) -->
+        <section class="section-padding" style="background: var(--bg-light); border-radius: 100px 0;">
+            <div class="container">
+                <div class="text-center reveal" style="margin-bottom: 60px;">
+                    <span class="tagline"> Consequences of skipping RCT</span>
+                    <!-- <h2>Consequences of skipping RCT</h2> -->
+                </div>
+
+                <div class="grid" style="grid-template-columns: repeat(3, 1fr); gap: 30px;">
+                    <!-- Single Visit -->
+                    <div class="reveal glass-card text-center" style="padding: 40px;">
+                        <div class="mini-icon-circle"><i class="fas fa-bolt"></i></div>
+                        <h4 style="margin: 20px 0;">Infection</h4>
+                        <p style="font-size: 0.9rem; color: var(--text-muted);">The infection may spread into gums and
+                            jaw bone and lead to pus filled abscess formation.</p>
+                    </div>
+
+                    <!-- Digital Apex Locators -->
+                    <div class="reveal glass-card text-center" style="padding: 40px;">
+                        <div class="mini-icon-circle"><i class="fas fa-satellite-dish"></i></div>
+                        <h4 style="margin: 20px 0;">Health Risk</h4>
+                        <p style="font-size: 0.9rem; color: var(--text-muted);">Severe health conditions, such as heart
+                            disease and stroke, may also result from this.</p>
+                    </div>
+
+                    <!-- Rotary Systems -->
+                    <div class="reveal glass-card text-center" style="padding: 40px;">
+                        <div class="mini-icon-circle"><i class="fas fa-microscope"></i></div>
+                        <h4 style="margin: 20px 0;">Chronic</h4>
+                        <p style="font-size: 0.9rem; color: var(--text-muted);">If the pain you're experiencing
+                            disappears, it doesn't signify that your teeth have healed over time; instead, it means that
+                            the infection has multiplied and the nerves inside your teeth have all died.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: TEXT LEFT / IMAGE RIGHT -->
+        <section class="container section-padding">
+            <div class="grid" style="grid-template-columns: 1fr 1fr; align-items: center; gap: 80px;">
+                <div class="reveal">
+                    <span class="tagline">POST-RCT CARE</span>
+                    <h2 style="margin: 20px 0; font-size: 2.8rem;">Procedure with<br><span
+                            style="color:var(--secondary)">Root Canal Treatment</span></h2>
+                    <p style="color: var(--text-muted); font-size: 1.1rem; margin-bottom: 30px;">
+                        The procedure involves accessing the pulp chamber through the crown of the tooth, removing the
+                        affected tissue, and thoroughly cleaning and disinfecting the root canals. After cleaning, the
+                        canals are filled with a biocompatible material, and the tooth is typically restored with a
+                        crown to provide strength and protect it from further damage.
+                    </p>
+                    <div class="flex" style="gap: 20px;">
+                        <div class="text-center"
+                            style="background: var(--bg-light); padding: 20px; border-radius: 20px; flex: 1;">
+                            <h3 style="color: var(--primary);">45m</h3>
+                            <p style="font-size: 0.8rem; font-weight: 700;">Procedure Time</p>
+                        </div>
+                        <div class="text-center"
+                            style="background: var(--bg-light); padding: 20px; border-radius: 20px; flex: 1;">
+                            <h3 style="color: var(--primary);">100%</h3>
+                            <p style="font-size: 0.8rem; font-weight: 700;">Digitally Guided</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="reveal">
+                    <img src="Images/root3.png" alt="Dental Crown Technology"
+                        style="width: 100%; border-radius: 40px; box-shadow: 0 40px 80px rgba(0,0,0,0.15);">
+                </div>
+            </div>
+        </section>
+        <section class="">
+            <div class="container">
+                <div class="paragraph reveal text-center">
+                    <span class="tagline">Treatment Method</span>
+                    <h2 class="text-center" style="margin-bottom: 40px;">laser Assisted root canal treatment</h2>
+                    <p style="color: var(--text-muted); font-size: 1.1rem; margin-bottom: 30px;">
+                        Laser-assisted root canal treatment is an advanced dental procedure that utilizes laser
+                        technology to enhance the effectiveness and precision of traditional root canal therapy. The
+                        laser is used to clean and disinfect the root canals more thoroughly than conventional methods,
+                        helping to eliminate bacteria and debris from the infected area. This technique can reduce
+                        treatment time, minimize discomfort, and promote faster healing compared to traditional root
+                        canal procedures. Laser-assisted root canal treatment is often recommended for patients with
+                        complex cases or those seeking a more comfortable experience during their endodontic care.
+                    </p>
+
+
+                </div>
+                <div class="row grid" style="grid-template-columns: repeat(2, 1fr); gap: 30px;height:600px; ">
+                    <img src="Images/root2.png" alt="Laser Root Canal"
+                        style="width: 100%; border-radius: 40px; box-shadow: 0 40px 80px rgba(0,0,0,0.15); height: 60%;">
+                    <img src="Images/root4.png" alt="Laser Root Canal"
+                        style="width: 100%; border-radius: 40px; box-shadow: 0 40px 80px rgba(0,0,0,0.15); height: 60%;">
+                </div>
+
+            </div>
+        </section>
+        <section class="Benefits-section" style="background: var(--bg-light); border-radius: 100px 0; padding: 80px 0;">
+            <div class="container">
+
+                <h2 class="text-center" style="margin-bottom: 40px;">Benefits of Root Canal Treatment</h2>
+                <div class="grid" style="grid-template-columns: repeat(3, 1fr); gap: 30px;">
+                    <div class="glass-card text-center" style="padding: 30px;">
+                        <i class="fas fa-heartbeat"
+                            style="font-size: 2rem; color: var(--primary); margin-bottom: 15px;"></i>
+                        <!-- <h3>Preserves Natural Tooth</h3> -->
+                        <p>Root canal treatment is necessary to remove infected pulp and alleviate associated pain.</p>
+                    </div>
+                    <div class="glass-card text-center" style="padding: 30px;">
+                        <i class="fas fa-smile-beam"
+                            style="font-size: 2rem; color: var(--primary); margin-bottom: 15px;"></i>
+                        <!-- <h3>Restores Functionality</h3> -->
+                        <p>Root canal treatment helps eliminate infection and prevent abscess from spreading.</p>
+                    </div>
+                    <div class="glass-card text-center" style="padding: 30px;">
+                        <i class="fas fa-shield-virus"
+                            style="font-size: 2rem; color: var(--primary); margin-bottom: 15px;"></i>
+                        <!-- <h3>Prevents Further Damage</h3> -->
+                        <p>By doing Root canal treatment, we get to save the natural tooth, if left untreated; the tooth
+                            may reach a point where it cannot be saved resulting in permanent tooth loss / Extraction.
+                        </p>
+                    </div>
+                    <div class="glass-card text-center" style="padding: 30px;">
+                        <i class="fas fa-dollar-sign"
+                            style="font-size: 2rem; color: var(--primary); margin-bottom: 15px;"></i>
+                        <!-- <h3>Cost-Effective</h3> -->
+                        <p>Restores tooth structural integrity for Normal Chewing and Appearance which Offers Long-Term
+                            Stability and Comfort.</p>
+                    </div>
+                    <div class="glass-card text-center" style="padding: 30px;">
+                        <i class="fas fa-clock"
+                            style="font-size: 2rem; color: var(--primary); margin-bottom: 15px;"></i>
+                        <!-- <h3>Long-Lasting Solution</h3> -->
+                        <p>With proper care, a root canal treated tooth can last for life time.</p>
+                    </div>
+                    <div class="glass-card text-center" style="padding: 30px;">
+                        <i class="fas fa-user-md"
+                            style="font-size: 2rem; color: var(--primary); margin-bottom: 15px;"></i>
+                        <!-- <h3>Expert Care</h3> -->
+                        <p>Performed by skilled endodontists for optimal outcomes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- CTA BANNER -->
+        <section class="container section-padding reveal">
+            <div class="glass-card"
+                style="background: var(--gradient); color: white; padding: 80px; text-align: center; border-radius: 40px;">
+                <h2 style="font-size: 3rem; margin-bottom: 20px;">Suffering from a Toothache?</h2>
+                <p style="margin-bottom: 40px; opacity: 0.9;">Don't delay. Save your natural tooth today with our
+                    painless Root Canal Treatment.</p>
+                <div class="flex" style="justify-content: center;">
+                    <a href="book-appointment.html" class="btn-main"
+                        style="background: white; color: var(--primary);">Book Emergency RCT</a>
+                    <a href="https://wa.me/yournumber" class="flex"
+                        style="color: white; font-weight: 700; text-decoration: none; margin-left: 20px;"><i
+                            class="fab fa-whatsapp"></i> Chat with Us</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- FOOTER SECTION -->
+    <footer class="reveal">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Column 1: Brand -->
+                <div class="footer-col">
+                    <div class="footer-logo" style="margin-bottom: 25px; line-height: 1.1;">
+                        <a href="index.html" class="logo"
+                            style="color: white; display: flex; align-items: center; gap: 15px; text-decoration: none;">
+                            <img src="Images/logo.png" alt="V Cure Dental" width="70" height="70">
+                            <div>
+                                <div
+                                    style="font-size: 1.8rem; font-weight: 800; color: white; letter-spacing: -1px; line-height: 1;">
+                                    V Cure</div>
+                                <div
+                                    style="font-size: 1.2rem; font-weight: 700; color: var(--secondary); line-height: 1;">
+                                    Dental & Implant Centre</div>
+                            </div>
+                        </a>
+                    </div>
+                    <p style="color: rgba(255,255,255,0.7); line-height: 1.8; margin-bottom: 30px; font-size: 0.95rem;">
+                        Pioneering the future of healthcare with 16+ years of excellence. We provide world-class dental
+                        services with a commitment to compassion, innovation, and patient-centered care.
+                    </p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <!-- Column 2: Quick Links -->
+                <div class="footer-col">
+                    <h4
+                        style="color: var(--secondary); margin-bottom: 25px; font-size: 1.25rem; font-weight: 700; position: relative;">
+                        Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="doctors.html">Our Doctors</a></li>
+                        <li><a href="book-appointment.html">Book Appointment</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Our Services -->
+                <div class="footer-col">
+                    <h4
+                        style="color: var(--secondary); margin-bottom: 25px; font-size: 1.25rem; font-weight: 700; position: relative;">
+                        Our Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="implants.html">Dental Implants</a></li>
+                        <li><a href="root-canal.html">Root Canal</a></li>
+                        <li><a href="aligners.html">Clear Aligners</a></li>
+                        <li><a href="smile-makeover.html">Smile Makeover</a></li>
+                        <li><a href="zirconia-crowns.html">Zirconia Crowns</a></li>
+                        <li><a href="kids-dentistry.html">Kids Dentistry</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Get In Touch -->
+                <div class="footer-col">
+                    <h4
+                        style="color: var(--secondary); margin-bottom: 25px; font-size: 1.25rem; font-weight: 700; position: relative;">
+                        Get In Touch</h4>
+                    <ul class="contact-info">
+                        <li style="display: flex; gap: 12px; margin-bottom: 20px;">
+                            <i class="fas fa-map-marker-alt" style="color: var(--secondary); font-size: 1.1rem;"></i>
+                            <span style="color: rgba(255,255,255,0.8); line-height: 1.6;">Krishnagiri Branch<br>Chennai
+                                Branch<br>Hosur Branch</span>
+                        </li>
+                        <li style="display: flex; gap: 12px; margin-bottom: 20px;">
+                            <i class="fas fa-phone-alt" style="color: var(--secondary); font-size: 1.1rem;"></i>
+                            <span style="color: rgba(255,255,255,0.8); line-height: 1.6;">+91
+                                8838313614<br>+91 7338834566<br>+91 9884734136</span>
+                        </li>
+                        <li style="display: flex; gap: 12px;">
+                            <i class="fas fa-envelope" style="color: var(--secondary); font-size: 1.1rem;"></i>
+                            <span style="color: rgba(255,255,255,0.8);">vcareclinics@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom"
+                style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 30px; margin-top: 60px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
+                <p style="color: rgba(255,255,255,0.5); font-size: 0.9rem;">&copy; 2026 V Cure Dental & Implant Centre.
+                    All rights reserved.</p>
+                <div
+                    style="display: flex; align-items: center; gap: 12px; color: rgba(255,255,255,0.6); font-size: 0.9rem;">
+                    <span>Powered by</span>
+                    <a href="https://aspirentech.com" target="_blank">
+                        <img src="https://aspirentech.com/assets/aspirentech-logo-new-B7I5o4Z6.png" alt="Aspirentech"
+                            style="height: 22px; filter: brightness(0) invert(1); opacity: 0.8; transition: 0.3s;">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <a href="https://wa.me/yournumber" class="whatsapp-float"><i class="fab fa-whatsapp"></i></a>
+    <script src="script.js"></script>
+</body>
+
+</html>

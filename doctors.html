@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet Our Doctors | V Cure Dental & Implant Centre</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATIONAL HEADER WITH DYNAMIC DROPDOWN -->
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo"><img src="Images/logo.png" alt="V Cure Dental & Implant Centre" width="60"
+                    height="60"> V Cure<span> Dental & Implant Centre</span></a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+
+                <!-- SERVICES DROPDOWN -->
+                <li class="dropdown">
+                    <a href="services.html" class="drop-trigger">Services <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="implants.html"><i class="fas fa-tooth"></i> Dental Implant</a></li>
+                        <li><a href="root-canal.html"><i class="fas fa-bolt"></i> RCT</a></li>
+                        <li><a href="zirconia-crowns.html"><i class="fas fa-crown"></i> Zirconia Crowns</a></li>
+                        <li><a href="complete-denture.html"><i class="fas fa-teeth"></i> Complete Denture</a></li>
+                        <li><a href="aligners.html"><i class="fas fa-gem"></i> Clear Aligners</a></li>
+                        <li><a href="orthodontic-treatment.html"><i class="fas fa-align-center"></i> Orthodontic
+                                Treatment</a></li>
+                        <li><a href="kids-dentistry.html"><i class="fas fa-child"></i> Kids Dentistry</a></li>
+                        <li><a href="smile-makeover.html"><i class="fas fa-star"></i> Smile Makeover</a></li>
+                        <li><a href="full-mouth.html"><i class="fas fa-sync-alt"></i> Full Mouth Rehabilitation</a></li>
+                        <li><a href="wisdom-tooth.html"><i class="fas fa-briefcase-medical"></i> Wisdom Tooth
+                                Removal</a></li>
+                        <li><a href="cleaning.html"><i class="fas fa-teeth"></i> Cleaning and Polishing</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li><a href="doctors.html">Doctors</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="book-appointment.html" class="btn-nav">Book Appointment</a></li>
+            </ul>
+
+            <!-- Mobile Toggle (Keep for responsiveness) -->
+            <button class="hamburger" onclick="toggleMobileMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+    <main>
+        <!-- IMMERSIVE HERO -->
+        <section class="hero-page"
+            style="padding: 120px 0; background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1527613426441-4da17471b66d?auto=format&fit=crop&q=80&w=1920') center/cover;">
+            <div class="pattern-bg"></div>
+            <div class="container text-center reveal">
+                <h2 style="font-size: 2rem; line-height: 1.1; margin: 20px 0;color: #fff;">OUR MEDICAL TEAM</h2>
+                <h1 style="font-size: 4.5rem; line-height: 1.1; margin: 20px 0;color: #fff;">Meet Your <span
+                        class="text-gradient">Smile Experts</span></h1>
+                <p style="font-size: 1.3rem; max-width: 800px; margin: 0 auto; color: #fff;">
+                    Highly experienced specialists dedicated to providing painless,
+                    advanced dental care using the latest global technology.
+                </p>
+            </div>
+        </section>
+
+        <!-- DOCTORS GRID -->
+        <section class="container section-padding">
+            <div class="grid" style="grid-template-columns: repeat(3, 1fr); gap: 40px;">
+
+                <!-- Doctor 1: Implantologist -->
+                <div class="reveal glass-card doctor-profile-card">
+                    <div class="doc-img-wrapper">
+                        <img src="Images/doctor.png" alt="Dr. Dany - Head Dentist" width="500" height="350">
+                        <div class="doc-badge">Head Dentist</div>
+                    </div>
+                    <div class="doc-content">
+
+                        <h3>Dr. Dany</h3>
+                        <p class="doc-qual">MDS Oral Medicine and Radiologist, Oral Implantologist, Ex Dental Officer -
+                            ECHS</p>
+                        <a href="book-appointment.html" class="btn-main doc-btn">Book Now <i
+                                class="fas fa-calendar-check"></i></a>
+                    </div>
+                </div>
+
+                <!-- Doctor 2: Endodontist -->
+                <div class="reveal glass-card doctor-profile-card">
+                    <div class="doc-img-wrapper">
+                        <img src="Images/doctor1.png" alt="Dr. Flora - Root Canal Specialist" width="500" height="350">
+                    </div>
+                    <div class="doc-content">
+
+                        <h3>Dr.Flora</h3>
+                        <p class="doc-qual">BDS, Laser and Root Canal Specialist</p>
+
+                        <a href="book-appointment.html" class="btn-main doc-btn">Book Now <i
+                                class="fas fa-calendar-check"></i></a>
+                    </div>
+                </div>
+
+                <!-- Doctor 3: Orthodontist -->
+                <div class="reveal glass-card doctor-profile-card">
+                    <div class="doc-img-wrapper">
+                        <img src="Images/doctor2.png" alt="Dr. Surthi Senthil - Aligner Specialist" width="500"
+                            height="350">
+                    </div>
+                    <div class="doc-content">
+
+                        <h3>Dr. Surthi Senthil</h3>
+                        <p class="doc-qual">BDS, MDS (Periodontology), FPFA (USA)
+                        </p>
+                        <a href="book-appointment.html" class="btn-main doc-btn">Book Now <i
+                                class="fas fa-calendar-check"></i></a>
+                    </div>
+                </div>
+                <!-- Doctor 4: Orthodontist -->
+                <div class="reveal glass-card doctor-profile-card">
+                    <div class="doc-img-wrapper">
+                        <img src="Images/doctor3.png" alt="Dr. Thamizharasi.E - Aligner Specialist" width="500"
+                            height="350">
+                    </div>
+                    <div class="doc-content">
+
+                        <h3>Dr. Thamizharasi.E</h3>
+                        <p class="doc-qual">BDS,FMDC
+                        </p>
+                        <a href="book-appointment.html" class="btn-main doc-btn">Book Now <i
+                                class="fas fa-calendar-check"></i></a>
+                    </div>
+                </div>
+                <div class="reveal glass-card doctor-profile-card">
+                    <div class="doc-img-wrapper">
+                        <img src="Images/doctor4.png" alt="Dr. S. Sakthi - Aligner Specialist" width="500" height="350">
+                    </div>
+                    <div class="doc-content">
+
+                        <h3>Dr. S. Sakthi</h3>
+                        <p class="doc-qual">BDS
+                        </p>
+                        <a href="book-appointment.html" class="btn-main doc-btn">Book Now <i
+                                class="fas fa-calendar-check"></i></a>
+                    </div>
+                </div>
+                <div class="reveal glass-card doctor-profile-card">
+                    <div class="doc-img-wrapper">
+                        <img src="Images/doctor5.png" alt="Dr. M. Rooba Sri - Aligner Specialist" width="500"
+                            height="350">
+                    </div>
+                    <div class="doc-content">
+
+                        <h3>Dr.M.Rooba Sri</h3>
+                        <p class="doc-qual">BDS
+                        </p>
+                        <a href="book-appointment.html" class="btn-main doc-btn">Book Now <i
+                                class="fas fa-calendar-check"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CLINIC PHILOSOPHY BANNER -->
+        <section class="container section-padding reveal">
+            <div class="commitment-card text-center">
+                <h2 style="color: var(--primary); margin-bottom: 40px;">Our Commitment to You</h2>
+                <div class="grid commitment-grid" style="grid-template-columns: repeat(3, 1fr); text-align: left;">
+                    <div class="commitment-item">
+                        <i class="fas fa-user-md"></i>
+                        <strong>Gentle & Painless Approach</strong>
+                    </div>
+                    <div class="commitment-item">
+                        <i class="fas fa-microscope"></i>
+                        <strong>Modern Diagnostics</strong>
+                    </div>
+                    <div class="commitment-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <strong>100% Sterilization</strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- FOOTER SECTION -->
+    <footer class="reveal">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Column 1: Brand -->
+                <div class="footer-col">
+                    <div class="footer-logo" style="margin-bottom: 25px; line-height: 1.1;">
+                        <a href="index.html" class="logo"
+                            style="color: white; display: flex; align-items: center; gap: 15px; text-decoration: none;">
+                            <img src="Images/logo.png" alt="V Cure Dental" width="70" height="70">
+                            <div>
+                                <div
+                                    style="font-size: 1.8rem; font-weight: 800; color: white; letter-spacing: -1px; line-height: 1;">
+                                    V Cure</div>
+                                <div
+                                    style="font-size: 1.2rem; font-weight: 700; color: var(--secondary); line-height: 1;">
+                                    Dental & Implant Centre</div>
+                            </div>
+                        </a>
+                    </div>
+                    <p style="color: rgba(255,255,255,0.7); line-height: 1.8; margin-bottom: 30px; font-size: 0.95rem;">
+                        Pioneering the future of healthcare with 16+ years of excellence. We provide world-class dental
+                        services with a commitment to compassion, innovation, and patient-centered care.
+                    </p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <!-- Column 2: Quick Links -->
+                <div class="footer-col">
+                    <h4
+                        style="color: var(--secondary); margin-bottom: 25px; font-size: 1.25rem; font-weight: 700; position: relative;">
+                        Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="doctors.html">Our Doctors</a></li>
+                        <li><a href="book-appointment.html">Book Appointment</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Our Services -->
+                <div class="footer-col">
+                    <h4
+                        style="color: var(--secondary); margin-bottom: 25px; font-size: 1.25rem; font-weight: 700; position: relative;">
+                        Our Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="implants.html">Dental Implants</a></li>
+                        <li><a href="root-canal.html">Root Canal</a></li>
+                        <li><a href="aligners.html">Clear Aligners</a></li>
+                        <li><a href="smile-makeover.html">Smile Makeover</a></li>
+                        <li><a href="zirconia-crowns.html">Zirconia Crowns</a></li>
+                        <li><a href="kids-dentistry.html">Kids Dentistry</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Get In Touch -->
+                <div class="footer-col">
+                    <h4
+                        style="color: var(--secondary); margin-bottom: 25px; font-size: 1.25rem; font-weight: 700; position: relative;">
+                        Get In Touch</h4>
+                    <ul class="contact-info">
+                        <li style="display: flex; gap: 12px; margin-bottom: 20px;">
+                            <i class="fas fa-map-marker-alt" style="color: var(--secondary); font-size: 1.1rem;"></i>
+                            <span style="color: rgba(255,255,255,0.8); line-height: 1.6;">Krishnagiri Branch<br>Chennai
+                                Branch<br>Hosur Branch</span>
+                        </li>
+                        <li style="display: flex; gap: 12px; margin-bottom: 20px;">
+                            <i class="fas fa-phone-alt" style="color: var(--secondary); font-size: 1.1rem;"></i>
+                            <span style="color: rgba(255,255,255,0.8); line-height: 1.6;">+91
+                                8838313614<br>+91 7338834566<br>+91 9884734136</span>
+                        </li>
+                        <li style="display: flex; gap: 12px;">
+                            <i class="fas fa-envelope" style="color: var(--secondary); font-size: 1.1rem;"></i>
+                            <span style="color: rgba(255,255,255,0.8);">vcareclinics@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom"
+                style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 30px; margin-top: 60px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
+                <p style="color: rgba(255,255,255,0.5); font-size: 0.9rem;">&copy; 2026 V Cure Dental & Implant Centre.
+                    All rights reserved.</p>
+                <div
+                    style="display: flex; align-items: center; gap: 12px; color: rgba(255,255,255,0.6); font-size: 0.9rem;">
+                    <span>Powered by</span>
+                    <a href="https://aspirentech.com" target="_blank">
+                        <img src="https://aspirentech.com/assets/aspirentech-logo-new-B7I5o4Z6.png" alt="Aspirentech"
+                            style="height: 22px; filter: brightness(0) invert(1); opacity: 0.8; transition: 0.3s;">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <a href="https://wa.me/yournumber" class="whatsapp-float"><i class="fab fa-whatsapp"></i></a>
+    <script src="script.js"></script>
+</body>
+
+</html>

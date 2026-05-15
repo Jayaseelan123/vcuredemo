@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smile Makeover | V Cure Dental & Implant Centre</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo"><img src="Images/logo.png" alt="V Cure Dental & Implant Centre" width="60"
+                    height="60"> V Cure<span> Dental & Implant Centre</span></a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+
+                <!-- SERVICES DROPDOWN -->
+                <li class="dropdown">
+                    <a href="services.html" class="drop-trigger">Services <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="implants.html"><i class="fas fa-tooth"></i> Dental Implant</a></li>
+                        <li><a href="root-canal.html"><i class="fas fa-bolt"></i> RCT</a></li>
+                        <li><a href="zirconia-crowns.html"><i class="fas fa-crown"></i> Zirconia Crowns</a></li>
+                        <li><a href="complete-denture.html"><i class="fas fa-teeth"></i> Complete Denture</a></li>
+                        <li><a href="aligners.html"><i class="fas fa-gem"></i> Clear Aligners</a></li>
+                        <li><a href="orthodontic-treatment.html"><i class="fas fa-align-center"></i> Orthodontic
+                                Treatment</a></li>
+                        <li><a href="kids-dentistry.html"><i class="fas fa-child"></i> Kids Dentistry</a></li>
+                        <li><a href="smile-makeover.html"><i class="fas fa-star"></i> Smile Makeover</a></li>
+                        <li><a href="full-mouth.html"><i class="fas fa-sync-alt"></i> Full Mouth Rehabilitation</a></li>
+                        <li><a href="wisdom-tooth.html"><i class="fas fa-briefcase-medical"></i> Wisdom Tooth
+                                Removal</a></li>
+                        <li><a href="cleaning.html"><i class="fas fa-teeth"></i> Cleaning and Polishing</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li><a href="doctors.html">Doctors</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="book-appointment.html" class="btn-nav">Book Appointment</a></li>
+            </ul>
+
+            <!-- Mobile Toggle (Keep for responsiveness) -->
+            <button class="hamburger" onclick="toggleMobileMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- IMMERSIVE HERO -->
+        <section class="hero-page"
+            style="padding: 120px 0; background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://plus.unsplash.com/premium_photo-1682097288491-7e926a30cd0b?auto=format&fit=crop&q=80&w=1920') center/cover;">
+            <div class="pattern-bg"></div>
+            <div class="container text-center reveal">
+                <span class="tagline" style="background:var(--secondary); color:white;">DESIGN YOUR DREAM SMILE</span>
+                <h1 style="font-size: 4.5rem; color: white; margin-top: 20px;">Smile <span
+                        class="text-gradient">Makeover</span></h1>
+                <p style="font-size: 1.3rem; color: #ddd; max-width: 800px; margin: 20px auto;">A personalized
+                    combination of artistic dental procedures to give you the perfect Hollywood smile.</p>
+            </div>
+        </section>
+
+        <!-- SECTION 1: IMAGE LEFT / TEXT RIGHT -->
+        <section class="container section-padding">
+            <div class="grid" style="grid-template-columns: 1fr 1fr; align-items: center; gap: 80px;">
+                <div class="reveal">
+                    <img src="Images/smile1.png" alt="Aesthetic Smile Transformation"
+                        style="width: 100%; border-radius: 40px; box-shadow: 0 40px 80px rgba(0,0,0,0.15);">
+                </div>
+                <div class="reveal">
+                    <span class="tagline">ARTISTIC EXCELLENCE</span>
+                    <h2 style="margin: 20px 0; font-size: 2.8rem;">Smile Makeover <br><span
+                            style="color:var(--primary)">Facial Harmony</span></h2>
+                    <p style="color: var(--text-muted); font-size: 1.1rem; margin-bottom: 30px;">
+                        Smile Makeover is a customized dental treatment plan designed to improve the appearance of your
+                        smile by addressing concerns related to teeth, gums, and overall facial harmony.At V Cure
+                        Dental, we combine advanced cosmetic dentistry with precision and care to create beautiful,
+                        natural-looking smiles
+
+                    </p>
+                    <div class="glass-card" style="border-left: 5px solid var(--primary); padding: 25px;">
+                        <ul style="list-style: none;">
+                            <li style="margin-bottom: 12px;"><i class="fas fa-check-circle"
+                                    style="color:var(--primary)"></i>Discolored or stained teeth</li>
+                            <li style="margin-bottom: 12px;"><i class="fas fa-check-circle"
+                                    style="color:var(--primary)"></i>Crooked or misaligned teeth</li>
+                            <li style="margin-bottom: 12px;"><i class="fas fa-check-circle"
+                                    style="color:var(--primary)"></i> Gaps between teeth</li>
+                            <li style="margin-bottom: 12px;"><i class="fas fa-check-circle"
+                                    style="color:var(--primary)"></i> Chipped, cracked, or worn teeth</li>
+                            <li style="margin-bottom: 12px;"><i class="fas fa-check-circle"
+                                    style="color:var(--primary)"></i> Uneven gum line or gummy smile</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: THE COMPONENTS (Detailed Grid) -->
+        <section class="section-padding" style="background: var(--bg-light); border-radius: 100px 100px 0 0;">
+            <div class="container">
+                <div class="text-center reveal" style="margin-bottom: 60px;">
+                    <span class="tagline">TREATMENT COMPONENTS</span>
+                    <h2>What's Included?</h2>
+                </div>
+
+                <div class="grid" style="grid-template-columns: repeat(3, 1fr); gap: 30px;">
+                    <!-- Veneers -->
+                    <div class="reveal glass-card text-center" style="padding: 40px;">
+                        <div class="mini-icon-circle"><i class="fas fa-teeth"></i></div>
+                        <h4 style="margin: 20px 0; text-align: center;">Dental Veneers</h4>
+                        <p style="font-size: 0.9rem; color: var(--text-muted);">Ultra-thin ceramic shells bonded to the
+                            front of teeth to correct color, shape, and alignment issues.</p>
+                    </div>
+
+                    <!-- Whitening -->
+                    <div class="reveal glass-card text-center" style="padding: 40px;">
+                        <div class="mini-icon-circle"><i class="fas fa-magic"></i></div>
+                        <h4 style="margin: 20px 0; text-align: center;">Laser Whitening</h4>
+                        <p style="font-size: 0.9rem; color: var(--text-muted);">In-office professional whitening that
+                            brightens your teeth by several shades in just 45 minutes.</p>
+                    </div>
+
+                    <!-- Contouring -->
+                    <div class="reveal glass-card text-center" style="padding: 40px;">
+                        <div class="mini-icon-circle"><i class="fas fa-bezier-curve"></i></div>
+                        <h4 style="margin: 20px 0; text-align: center;">Gum Contouring</h4>
+                        <p style="font-size: 0.9rem; color: var(--text-muted);">Laser reshaping of the gum line to fix
+                            "gummy smiles" and create a more symmetrical appearance.</p>
+                    </div>
+                    <div class="reveal glass-card text-center" style="padding: 40px;">
+                        <div class="mini-icon-circle"><i class="fas fa-eraser"></i></div>
+                        <h4 style="margin: 20px 0; text-align: center;">Laser gum depigmentation</h4>
+                        <p style="font-size: 0.9rem; color: var(--text-muted);">Remove dark melanin pigment from gums through
+                            laser to restore natural light pink gums.</p>
+                    </div>
+                    <div class="reveal glass-card text-center" style="padding: 40px;">
+                        <div class="mini-icon-circle"><i class="fas fa-tooth"></i></div>
+                        <h4 style="margin: 20px 0; text-align: center;">Dental Implants</h4>
+                        <p style="font-size: 0.9rem; color: var(--text-muted);">An implant is a screw-like material made
+                            of titanium that replaces the root portion of a natural tooth.</p>
+                    </div>
+                    <div class="reveal glass-card text-center" style="padding: 40px;">
+                        <div class="mini-icon-circle"><i class="fas fa-crown"></i></div>
+                        <h4 style="margin: 20px 0; text-align: center;">Zirconia / DMLS Crowns</h4>
+                        <p style="font-size: 0.9rem; color: var(--text-muted);">Zirconia crowns that are custom-milled
+                            to match the exact shade and shape of your surrounding teeth.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="container section-padding">
+            <div class="text-center reveal" style="margin-bottom: 60px;">
+                <span class="tagline">HOW WE WORK</span>
+                <h2>Our Approach</h2>
+            </div>
+
+            <!-- 3 Columns for Desktop, responsive to 1 on mobile (assuming standard .grid css) -->
+            <div class="grid" style="grid-template-columns: repeat(3, 1fr); gap: 30px;">
+
+                <!-- Approach 1 -->
+                <div class="reveal glass-card text-center" style="padding: 40px;">
+                    <div class="mini-icon-circle"><i class="fas fa-search-plus"></i></div>
+                    <h4 style="margin: 20px 0; font-size: 1.2rem;">Detailed Smile Analysis</h4>
+                    <p style="font-size: 0.95rem; color: var(--text-muted);">We begin with a comprehensive evaluation of
+                        your facial structure and dental alignment to create a highly personalized treatment plan.</p>
+                </div>
+
+                <!-- Approach 2 -->
+                <div class="reveal glass-card text-center" style="padding: 40px;">
+                    <div class="mini-icon-circle"><i class="fas fa-laptop-medical"></i></div>
+                    <h4 style="margin: 20px 0; font-size: 1.2rem;">Digital Smile Design Preview</h4>
+                    <p style="font-size: 0.95rem; color: var(--text-muted);">See your future smile before treatment even
+                        begins using our advanced 3D imaging and digital outcome simulation technology.</p>
+                </div>
+
+                <!-- Approach 3 -->
+                <div class="reveal glass-card text-center" style="padding: 40px;">
+                    <div class="mini-icon-circle"><i class="fas fa-microchip"></i></div>
+                    <h4 style="margin: 20px 0; font-size: 1.2rem;">Advanced Technology & Materials</h4>
+                    <p style="font-size: 0.95rem; color: var(--text-muted);">We utilize the absolute latest in dental
+                        materials and cutting-edge equipment to ensure precise, fast, and comfortable care.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CTA BANNER -->
+        <section class="container section-padding reveal">
+            <div class="glass-card"
+                style="background: var(--gradient); color: white; padding: 80px; text-align: center; border-radius: 40px;">
+                <h2 style="font-size: 3rem; margin-bottom: 20px;">Transform Your Life Today</h2>
+                <p style="margin-bottom: 40px; opacity: 0.9;">Book a Smile Makeover consultation and see your future
+                    self with a 3D digital simulation.</p>
+                <div class="flex" style="justify-content: center;">
+                    <a href="book-appointment.html" class="btn-main"
+                        style="background: white; color: var(--primary);">Book Consultation</a>
+                    <a href="https://wa.me/yournumber" class="flex"
+                        style="color: white; font-weight: 700; text-decoration: none; margin-left: 20px;"><i
+                            class="fab fa-whatsapp"></i> WhatsApp Chat</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer class="reveal">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Column 1: Brand -->
+                <div class="footer-col">
+                    <div class="footer-logo" style="margin-bottom: 25px; line-height: 1.1;">
+                        <a href="index.html" class="logo"
+                            style="color: white; display: flex; align-items: center; gap: 15px; text-decoration: none;">
+                            <img src="Images/logo.png" alt="V Cure Dental" width="70" height="70">
+                            <div>
+                                <div
+                                    style="font-size: 1.8rem; font-weight: 800; color: white; letter-spacing: -1px; line-height: 1;">
+                                    V Cure</div>
+                                <div
+                                    style="font-size: 1.2rem; font-weight: 700; color: var(--secondary); line-height: 1;">
+                                    Dental & Implant Centre</div>
+                            </div>
+                        </a>
+                    </div>
+                    <p style="color: rgba(255,255,255,0.7); line-height: 1.8; margin-bottom: 30px; font-size: 0.95rem;">
+                        Pioneering the future of healthcare with 16+ years of excellence. We provide world-class dental
+                        services with a commitment to compassion, innovation, and patient-centered care.
+                    </p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <!-- Column 2: Quick Links -->
+                <div class="footer-col">
+                    <h4
+                        style="color: var(--secondary); margin-bottom: 25px; font-size: 1.25rem; font-weight: 700; position: relative;">
+                        Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="doctors.html">Our Doctors</a></li>
+                        <li><a href="book-appointment.html">Book Appointment</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Our Services -->
+                <div class="footer-col">
+                    <h4
+                        style="color: var(--secondary); margin-bottom: 25px; font-size: 1.25rem; font-weight: 700; position: relative;">
+                        Our Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="implants.html">Dental Implants</a></li>
+                        <li><a href="root-canal.html">Root Canal</a></li>
+                        <li><a href="aligners.html">Clear Aligners</a></li>
+                        <li><a href="smile-makeover.html">Smile Makeover</a></li>
+                        <li><a href="zirconia-crowns.html">Zirconia Crowns</a></li>
+                        <li><a href="kids-dentistry.html">Kids Dentistry</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Get In Touch -->
+                <div class="footer-col">
+                    <h4
+                        style="color: var(--secondary); margin-bottom: 25px; font-size: 1.25rem; font-weight: 700; position: relative;">
+                        Get In Touch</h4>
+                    <ul class="contact-info">
+                        <li style="display: flex; gap: 12px; margin-bottom: 20px;">
+                            <i class="fas fa-map-marker-alt" style="color: var(--secondary); font-size: 1.1rem;"></i>
+                            <span style="color: rgba(255,255,255,0.8); line-height: 1.6;">Krishnagiri Branch<br>Chennai
+                                Branch<br>Hosur Branch</span>
+                        </li>
+                        <li style="display: flex; gap: 12px; margin-bottom: 20px;">
+                            <i class="fas fa-phone-alt" style="color: var(--secondary); font-size: 1.1rem;"></i>
+                            <span style="color: rgba(255,255,255,0.8); line-height: 1.6;">+91
+                                8838313614<br>+91 7338834566<br>+91 9884734136</span>
+                        </li>
+                        <li style="display: flex; gap: 12px;">
+                            <i class="fas fa-envelope" style="color: var(--secondary); font-size: 1.1rem;"></i>
+                            <span style="color: rgba(255,255,255,0.8);">vcareclinics@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom"
+                style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 30px; margin-top: 60px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
+                <p style="color: rgba(255,255,255,0.5); font-size: 0.9rem;">&copy; 2026 V Cure Dental & Implant Centre.
+                    All rights reserved.</p>
+                <div
+                    style="display: flex; align-items: center; gap: 12px; color: rgba(255,255,255,0.6); font-size: 0.9rem;">
+                    <span>Powered by</span>
+                    <a href="https://aspirentech.com" target="_blank">
+                        <img src="https://aspirentech.com/assets/aspirentech-logo-new-B7I5o4Z6.png" alt="Aspirentech"
+                            style="height: 22px; filter: brightness(0) invert(1); opacity: 0.8; transition: 0.3s;">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <a href="https://wa.me/yournumber" class="whatsapp-float"><i class="fab fa-whatsapp"></i></a>
+    <script src="script.js"></script>
+</body>
+
+</html>
